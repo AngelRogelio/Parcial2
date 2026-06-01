@@ -1,9 +1,10 @@
 const express = require('express');
 const swaggerUi = require('swagger-ui-express');
+const cors = require('cors');
 
 const app = express();
 app.use(express.json()); 
-
+app.use(cors());
 
 let usuarios = [
     { id: 1, nombre: 'Juan Pérez' },
