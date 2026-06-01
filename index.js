@@ -21,8 +21,8 @@ const swaggerDocument = {
     },
     servers: [
         {
-            url: 'http://localhost:3000',
-            description: 'Servidor Local de Pruebas'
+            url: 'https://api-final-angel-crud.onrender.com',
+            description: 'Servidor Production'
         }
     ],
     paths: {
